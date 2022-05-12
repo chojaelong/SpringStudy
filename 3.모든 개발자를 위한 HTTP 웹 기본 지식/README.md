@@ -35,7 +35,7 @@
 - 네트워크 인터페이스 계층
     - LAN 드라이버, LAN 장비
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20f9afc63466f143379babfd84d5860723/Untitled.png)
+![Untitled](image/Untitled.png)
 
 ### TCP 특징
 
@@ -53,7 +53,7 @@
 2. Server → Client SYN + ACK
 3. Client → Server ACK
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20f9afc63466f143379babfd84d5860723/Untitled%201.png)
+![Untitled](image/Untitled%201.png)
 
 <aside>
 💡 SYN : 접속 요청
@@ -96,7 +96,7 @@ ACK : 요청 수락
 
 URI? URL? URN?
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20f9afc63466f143379babfd84d5860723/Untitled%202.png)
+![Untitled](image/Untitled%202.png)
 
 ### URI
 
@@ -184,7 +184,7 @@ HyperText Transfer Protocol
 
 - HTTP 요청 메시지와 응답 메시지는 구조가 다름
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20f9afc63466f143379babfd84d5860723/Untitled%203.png)
+![Untitled](image/Untitled%203.png)
 
 - 시작 라인
     - 요청 메시지
@@ -273,9 +273,9 @@ HyperText Transfer Protocol
     - HTML Form 데이터 전송
         - GET, POST만 지원
         
-        ![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20f9afc63466f143379babfd84d5860723/Untitled%204.png)
+        ![Untitled](image/Untitled%204.png)
         
-        ![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20f9afc63466f143379babfd84d5860723/Untitled%205.png)
+        ![Untitled](image/Untitled%205.png)
         
         - multipart/form-data
             - 각 부분 별로 데이터를 구분하며 잘라줌
@@ -389,7 +389,7 @@ GET, POST만 지원
                 - 304 응답은 응답에 메시지 바디를 포함하면 안된다. (로컬 캐시를 사용해야 하므로)
                 - 조건부 GET, HEAD 요청 시 사용
     
-    ![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20f9afc63466f143379babfd84d5860723/Untitled%206.png)
+    ![Untitled](image/Untitled%206.png)
     
 - 4xx : 클라이언트 오류, 잘못된 문법 등으로 서버가 요청을 수행할 수 없음
     - 오류의 원인이 클라이언트에 있음
@@ -641,7 +641,7 @@ GET, POST만 지원
 
 ### 프록시 캐시
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20f9afc63466f143379babfd84d5860723/Untitled%207.png)
+![Untitled](image/Untitled%207.png)
 
 중간에 프록시 서버를 두어 원 서버에 갈 필요 없이 프록시 캐시 서버에서 데이터 다운로드
 
